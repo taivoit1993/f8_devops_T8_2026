@@ -1,0 +1,6 @@
+mkdir ~/devops/lesson1
+cd ~/devops/lesson1
+
+touch lesson1
+nano lesson1
+cat lesson1
