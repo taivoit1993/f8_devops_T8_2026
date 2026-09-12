@@ -1,4 +1,4 @@
-mkdir ~/devops/lesson1
+mkdir -p ~/devops/lesson1
 cd ~/devops/lesson1
 
 touch hello_world.txt
