@@ -1,0 +1,16 @@
+services:
+  api:
+    build: .
+    container_name: backend
+    restart: always
+    ports:
+      - "9000:8000"
+    volumes:
+      - ./backend:/app
+
+volumes:
+  postgres_data:
+
+
+#aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin 197709713603.dkr.ecr.ap-southeast-1.amazonaws.com/assignment_10
+
